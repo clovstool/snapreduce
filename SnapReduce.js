@@ -12,13 +12,15 @@
 // SnapReduce constructor
 function SnapReduce (video, callback) {
 
-  var STALL_THRESHOLD = 0,
-      CANVAS_SCALE = .05,
-      SAMPLE_INTERVAL = 500,
-      _video = document.getElementById(video),
-      _imgData = null,
-      _stallCount = 0,
-      _canvas, _context, _timer;
+  var STALL_THRESHOLD = 0;
+  var CANVAS_SCALE = .05;
+  var SAMPLE_INTERVAL = 500;
+  var _video = document.getElementById(video);
+  var _imgData = null;
+  var _stallCount = 0;
+  var _canvas;
+  var _context;
+  var _timer;
       
   var initCanvas = (function () {
   

@@ -1,0 +1,36 @@
+#vtag { 
+
+    top:				0px;
+    left:				0px;
+    z-index: 			0;
+    
+    margin:				0px 0px 0px 0px;
+    padding: 			0px 0px 0px 0px;
+    
+    background-color: 	#000;
+    vertical-align: 	middle;
+
+    width:              640px;
+    height:             360px;
+
+}
+
+#vid {
+    float: left;
+    padding-right: 13px;
+}
+
+#elog {
+  padding-top: 3px;
+}
+
+#srlog {
+  background-color: #000;
+  color: #fff;
+}
+
+#time {
+  background-color: #FFEE38;
+  float: none;
+  padding-left: 9px;
+}

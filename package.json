@@ -1,0 +1,19 @@
+{
+  "name": "snapreduce",
+  "version": "0.1.0",
+  "description": "Snapreduce detects stall conditions in an HTML5 video tag by comparing individual frames of video. ",
+  "main": "SnapReduce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML5",
+    "video"
+  ],
+  "author": "Dale Hannon",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "jasmine": "^2.3.1"
+  }
+}
